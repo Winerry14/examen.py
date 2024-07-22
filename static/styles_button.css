@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.menu-button {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: #d900d9;
+    color: white;
+    font-size: 20px;
+    line-height: 150px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.menu-button:hover {
+    background-color: #a300a3;
+}
+
+.menu-button-2 {
+    background-color: #66cc33;
+}
+
+.menu-button-2:hover {
+    background-color: #4e9933;
+}
